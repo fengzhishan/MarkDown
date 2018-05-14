@@ -29,11 +29,11 @@
 ```
 使用反引号代替四个空格代码，就与-无序列表不冲突了 
 - 引用外部图片  
-![baidu](https://www.baidu.com/img/bd_logo1.png "这是一个图片")
+![baidu](https://www.baidu.com/img/bd_logo1.png "这是一个图片")  
 注意最后text需要使用"" 双引号 引起来，否则这个语法就会不好使，成为一个链接
 
 - 引用内部图片  
-![picture](images\002.jpg "风景图片")
+![picture](images/002.jpg "风景图片")
 
 
 ## 引用 demo
