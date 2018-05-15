@@ -30,11 +30,23 @@
 使用反引号代替四个空格代码，就与-无序列表不冲突了 
 - 引用外部图片  
 ![baidu](https://www.baidu.com/img/bd_logo1.png "这是一个图片")  
+
+alt和text属性都可以缺省，只要有url即可,如下  
+![](https://www.baidu.com/img/bd_logo1.png) 
+
 注意最后text需要使用"" 双引号 引起来，否则这个语法就会不好使，成为一个链接
 
 - 引用内部图片  
 ![picture](images/002.jpg "风景图片")
 
+
+图片的引用式链接  
+- 引用外部图片
+![baidu][baidu_logo]  
+引用式链接只能引用url，不能附带text属性了
+
+- 引用内部图片  
+![][inside_png]
 
 ## 引用 demo
 > 这是一个引文  
@@ -70,3 +82,5 @@ console.log(tag);
 [demo1]:demo1.md
 [demo1 代码块]:demo2.md#代码块-demo   
 但是在引用是链接里 空格就会导致 引用式链接不好用
+[baidu_logo]:https://www.baidu.com/img/bd_logo1.png  
+[inside_png]:images/002.jpg  
