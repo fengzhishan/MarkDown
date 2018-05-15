@@ -81,8 +81,8 @@ console.log(tag);
 [baidu]:https://wwww.baidu.com 
 [demo1]:demo1.md
 [demo1 代码块]:demo2.md#代码块-demo   
-
-但是在引用是链接里 空格就会导致 引用式链接不好用  
+但是在引用是链接里 空格就会导致 引用式链接不好用
+//中文必须用空行隔开，否则与下面的链接冲突，造成下面的链接当做普通的文字显示
 
 [baidu_logo]:https://www.baidu.com/img/bd_logo1.png  
 [inside_png]:images/002.jpg  
